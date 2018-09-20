@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <font
+
+        android:font="@font/chlorinar">
+
+    </font>
+
+    <font
+        android:font="@font/porkys">
+
+    </font>
+
+    <font
+        android:font="@font/dancingscript">
+
+    </font>
+    <font
+        android:font="@font/grandhotel">
+
+    </font>
+    <font
+        android:font="@font/pacifico">
+
+    </font>
+
+
+</font-family>

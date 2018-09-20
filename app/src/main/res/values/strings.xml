@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="score">Score : 0</string>
+    <string name="nile">The 6,853 km(4,258 miles) long NILE RIVER is an \"international\" river. Its drainage basin covers eleven countries. The river has two major tributaries - the White Nile and Blue Nile.</string>
+    <string name="everest">Mount Everest is Earth\'\s highest mountain above sea level located in the Mahalangur Himal sub-range of the Himalayas. Its current official elevation is 8,848 m(29,029 ft).</string>
+    <string name="ganges">The Ganges-Brahmaputra Delta , also known as the Brahmaputra Delta or the Sunderbans Delta or the Bengal Delta is a river delta in the Bengal region of the South Asia. It consists of Bangladesh and the Indian state of West Bengal. It is the world\'\s largest delta. It is also one of the most fertile regions in the world, thus earning the nickname The Green Delta.</string>
+    <string name="greenland">Greenland is the world\'\s largest non-continental island and the third largest country in North America. The total area of Greenland is 2,166,086 square km of which the Greenland ice sheet covers 1,755,637 square km(81%) and has a volume of approximately 2,850,000 cubic km</string>
+    <string name="sahara">The Sahara Desert is the largest hot desert and the third largest desert in the world after Antarctica and the Arctic. Its area of 9,200,000 square kilometres is comparable to the area of China or the United States. </string>
+</resources>

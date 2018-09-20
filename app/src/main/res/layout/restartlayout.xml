@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button"
+    android:weightSum="3"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/restarttext"
+        android:text="RESTART GAME ?"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:textColor="@color/app_background"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/porkys"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:weightSum="2">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="YES"
+            android:textSize="25dp"
+            android:background="@color/cream"
+            android:textColor="@color/app_name"
+            android:fontFamily="@font/porkys"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:id="@+id/restartyes"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"
+            android:text="NO"
+            android:textSize="25dp"
+            android:background="@color/cream"
+            android:textColor="@color/app_name"
+            android:fontFamily="@font/porkys"
+            android:id="@+id/restartno"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/caution"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Progress will be lost upon restart."
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:fontFamily="@font/lobsterbold"
+            android:textColor="@color/textcolor"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

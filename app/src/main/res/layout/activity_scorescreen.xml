@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scorescreen"
+    android:background="@color/app_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textAlignment="center"
+        android:id="@+id/finish"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="50sp"
+        android:fontFamily="@font/porkys"
+        android:textColor="@color/app_name"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/finish"
+        android:layout_marginTop="150dp"
+        android:weightSum="2">
+        
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/playagain"
+            android:text="PLAY AGAIN"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:textColor="#FFFF99"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:fontFamily="@font/porkys"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/exit"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:textColor="#FFFF99"
+            android:text="EXIT"
+            android:padding="10dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/porkys"
+            />
+    </LinearLayout>
+</RelativeLayout>
